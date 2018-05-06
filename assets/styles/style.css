@@ -1,0 +1,57 @@
+/*Started Kit for Developer*/
+body,
+h1,
+h2,
+h3, 
+h4, 
+h5, 
+h6, 
+p, 
+ul, 
+li{
+    margin: 0;
+    padding: 0;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+button, input {
+    outline: none;
+    border: none;
+}
+
+.flex {
+    display: flex;
+}
+
+.standart {
+    justify-content: center;
+    align-items: center;
+}
+
+.row {
+    flex-direction: row;
+}
+
+.row-reverse {
+    flex-direction: row-reverse;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.column-reverse {
+    flex-direction: column-reverse;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.wrap-reverse {
+    flex-wrap: wrap-reverse;
+}
